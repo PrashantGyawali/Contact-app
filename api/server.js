@@ -14,3 +14,5 @@ server.get("/*", (_req, res) => {
 });
 
 server.listen(port, () => console.log("Server running"));
+
+module.exports = server;
