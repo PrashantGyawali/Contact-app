@@ -23,7 +23,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "vercel-build": "npm run build && node src/server.js"
+    "vercel-build": "npm run build && node api/server.js"
   },
   "eslintConfig": {
     "extends": [
