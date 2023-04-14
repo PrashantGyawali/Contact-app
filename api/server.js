@@ -8,7 +8,7 @@ const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults();
 const port = process.env.SERVER_PORT || 3006;
 
-server.use("/contacts", middlewares, router);
+server.use("/", middlewares, router);
 
 server.use(express.static(path.join(__dirname, "build")));
 server.get("/*", (_req, res) => {
