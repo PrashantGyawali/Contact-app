@@ -22,8 +22,7 @@
     "start": "json-server -p 3006 -w db.json & react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "vercel-build": "npm run build && node api/server.js"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
