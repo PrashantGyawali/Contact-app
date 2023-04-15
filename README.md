@@ -1,6 +1,6 @@
 # Contact-app
-A simple contact app made using react and json server
 
+A simple contact app made using react and json server
 
 What i learned:
 - A bit of semantic ui
